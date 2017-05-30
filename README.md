@@ -5,4 +5,6 @@ The SampleFunctions fileset is simply used to provide an example of typical func
 
 One will need to modify the rerun.c file to some extent in order to use it with a different robot configuration than the one detailed in SampleFunctions. These locations are distinctly marked, it is recommended that editing other portions of the source file be avoided.
 
-The output is printed live as the data is recorded, so it is recommended that you redirect the output of "pros terminal" into a file through the PROS CLI prior to starting the recording process. This file can later be copied into your auto.c file. 
+The output is printed live as the data is recorded, so it is recommended that you redirect the output of "pros terminal" into a file through the PROS CLI prior to starting the recording process. This file can later be copied into your auto.c file.
+
+The libFBC, libButtons, and libMtrmgr libraries from libBLRS (https://github.com/purduesigbots/libblrs) are required for proper playback and recording.
